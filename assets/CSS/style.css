@@ -1,16 +1,43 @@
 
-
-.About-me {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-    color:rgb(189, 66, 66)
+body{
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+    color: darkblue;
 }
 
+header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+}
 
-.Work{
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-    color:black
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+nav a{
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.page-section{
+    margin: 25px 0px;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.image{
+    width: 100%;
+  height: 400px;
+  background-image: url('img_flowers.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid dr;
+    
 }
