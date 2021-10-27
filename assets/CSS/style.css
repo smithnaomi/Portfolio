@@ -24,6 +24,11 @@ nav{
 nav a{
     text-decoration: none;
     padding: 5px 10px;
+    color: rgb(0, 0, 0);
+}
+nav a:hover{
+color: rgb(128, 156, 82)
+
 }
 
 
