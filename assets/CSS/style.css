@@ -4,6 +4,9 @@ body{
     background-color: burlywood;
     color: rgb(9, 9, 15);
     font-family: monospace ;
+    text-indent: 50px;
+    word-spacing: 10px;
+    font-size: 20px;
 }
 
 header{
@@ -25,6 +28,7 @@ nav a{
     text-decoration: none;
     padding: 5px 10px;
     color: rgb(0, 0, 0);
+    font-size: 20px;
 }
 nav a:hover{
 color: rgb(128, 156, 82)
@@ -61,6 +65,10 @@ background-image: url('../images/F6EAF64D-C6D1-41D6-B165-6AFD116657F4_1_105_c.jp
     justify-content: center;
 }
 
+address{
+color: black;
+
+}
 
 footer{
 position: relative;
