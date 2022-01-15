@@ -18,32 +18,25 @@
     <header>
       <h1>Naomi Smith</h1>
 
+      <!-- Navbar content -->
+
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a class="nav-link about" aria-current="page " href="#about"
+          <a class="nav-link about fs-4" aria-current="page" href="#about"
             >About Me</a
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link work" href="#work">Work</a>
+          <a class="nav-link work fs-4" href="#work">Work</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link contact" href="#contact">Contact</a>
+          <a class="nav-link contact fs-4" href="#contact">Contact</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled resume">Resume</a>
+          <a class="nav-link disabled resume fs-4">Resume</a>
         </li>
       </ul>
-      <nav class="navbar navbar-light" style="background-color: #a44a3f">
-        <!-- Navbar content -->
-      </nav>
-
-      <!-- <nav>
-        <a href="#about">About me</a>
-        <a href="#work">Work</a>
-        <a href="#contact">Contact</a>
-        <a href="/">Resume</a>
-      </nav> -->
+      <nav class="navbar navbar-light" style="background-color: #a44a3f"></nav>
     </header>
 
     <section id="image" class="image">
@@ -59,7 +52,7 @@
     <section id="about" class="page-section">
       <h2>About Me</h2>
 
-      <p>
+      <p class="paragrah fs-5">
         Marshmallow marshmallow topping lollipop donut jelly-o brownie
         croissant. Toffee cupcake lollipop tart candy canes I love gummi bears
         powder I love. Sugar plum powder fruitcake chocolate cake muffin candy.
@@ -81,64 +74,143 @@
 
     <section id="work" class="page-section">
       <h2>Portfolio</h2>
+      <!-- Cards -->
 
-      <div class="flex-container">
-        <a
-          href="https://forrestpangle.github.io/project1/"
-          class="flex-item Calm-Care"
-        >
-          <div>
-            <img
-              src="./assets/images/F6EAF64D-C6D1-41D6-B165-6AFD116657F4_1_105_c.jpeg"
-              alt="group project"
-            />
-            <h3>Calm and Care</h3>
-            <span></span>
+      <!-- Weather-Dashboard -->
+      <div class="five-cards flex-container">
+        <div class="card bg-secondary">
+          <img
+            src="assets/images/WeatherDashboard.gif"
+            alt="WorkDayScheduler"
+            class="Weather"
+          />
+          <div class="card-body bg-secondary">
+            <h3>
+              <a href="https://smithnaomi.github.io/Weather-Dashboard/"
+                >Weather Dashboard</a
+              >
+            </h3>
+            <p class="card-text">Giving you the weather.</p>
+            <button class="btn btn-secondary">
+              <a
+                href="https://github.com/smithnaomi/Weather-Dashboard/"
+                class="github-btn"
+                >GitHub</a
+              >
+            </button>
           </div>
-        </a>
+        </div>
+      </div>
 
-        <a href="https://smithnaomi.github.io/Password-Generator/">
-          <div>
-            <img src="assets/images/LoadingPage.png" alt="Flipped Pages" />
-            <h3>Flipped Pages</h3>
-            <span></span>
+      <!-- Calm and Care -->
+      <div class="five-cards flex-container">
+        <div class="card bg-secondary">
+          <img
+            src="assets/images/F6EAF64D-C6D1-41D6-B165-6AFD116657F4_1_105_c.jpeg"
+            alt=""
+            class="calm"
+          />
+          <div class="card-body bg-secondary">
+            <h3>
+              <a href="https://forrestpangle.github.io/project1/"
+                >Calm and Care</a
+              >
+            </h3>
+            <p class="card-text">Help animals find</p>
+            <button class="btn btn-secondary">
+              <a
+                href="https://github.com/ForrestPangle/project1/"
+                class="github-btn"
+                >GitHub</a
+              >
+            </button>
           </div>
-        </a>
+        </div>
+      </div>
 
-        <a href="https://smithnaomi.github.io/Quiz/">
-          <div>
-            <img src="assets/images/Quiz.png" alt="Quiz" />
-            <h3>Quiz</h3>
-            <span></span>
+      <!-- Work Day Scheduler -->
+      <div class="five-cards flex-container">
+        <div class="card bg-secondary">
+          <img
+            src="assets/images/WorkDayScheduler.gif"
+            alt="WorkDayScheduler"
+            class="Scheduler"
+          />
+          <div class="card-body bg-secondary">
+            <h3>
+              <a href="https://smithnaomi.github.io/Day-Scheduler/"
+                >Work Day Scheduler</a
+              >
+            </h3>
+            <p class="card-text">Get it together</p>
+            <button class="btn btn-secondary">
+              <a
+                href="https://github.com/smithnaomi/Day-Planner/"
+                class="github-btn"
+                >GitHub</a
+              >
+            </button>
           </div>
-        </a>
+        </div>
+      </div>
 
-        <a href="https://smithnaomi.github.io/Password-Generator/">
-          <div>
-            <img
-              src="assets/images/03-javascript-homework-demo.png"
-              alt="Password-Generator"
-            />
-            <h3>Password Generator</h3>
-            <span></span>
+      <!-- Password-Generator -->
+
+      <div class="five-cards flex-container">
+        <div class="card bg-secondary">
+          <img
+            src="assets/images/03-javascript-homework-demo.png"
+            alt="Wor"
+            class="password"
+          />
+          <div class="card-body bg-secondary">
+            <h3>
+              <a href="https://smithnaomi.github.io/Password-Generator/"
+                >Password Generator</a
+              >
+            </h3>
+            <p class="card-text">Make a Password</p>
+            <button class="btn btn-secondary">
+              <a
+                href="https://github.com/smithnaomi/Password-Generator"
+                class="github-btn"
+                >GitHub</a
+              >
+            </button>
           </div>
-        </a>
-        <a href="https://smithnaomi.github.io/Horiseon/">
-          <div>
-            <img
-              src="assets/images/01-html-css-git-homework-demo.png"
-              alt="Horiseon"
-            />
-            <h3>Horiseon</h3>
-            <span></span>
+        </div>
+      </div>
+
+      <!-- Quiz -->
+
+      <div class="five-cards flex-container">
+        <div class="card bg-secondary">
+          <img
+            src="assets/images/Quiz.png"
+            alt="Password-Generator"
+            class="quiz"
+          />
+          <div class="card-body bg-secondary">
+            <h3>
+              <a href="https://smithnaomi.github.io/Quiz/">Quiz</a>
+            </h3>
+            <p class="card-text">Test Yourself</p>
+            <button class="btn btn-secondary">
+              <a href="https://github.com/smithnaomi/Quiz" class="github-btn"
+                >GitHub</a
+              >
+            </button>
           </div>
-        </a>
+        </div>
       </div>
     </section>
 
-    <section id="Contact" class="page-section">
+    <section id="contact" class="page-section fs-4">
       <h2>Contact</h2>
       <address>
+        <a href="https://www.linkedin.com/in/naomi-smith-9aaaa9217/"
+          >Linkedin</a
+        >
         <a href="mailto:smithnaomi49@yahoo.com"> Email</a>
         <a href="https://github.com/smithnaomi">Github</a>
         <a href="tel:9194921159">Cell Phone</a>
