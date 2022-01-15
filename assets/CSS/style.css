@@ -21,6 +21,7 @@ header {
 
 h3 {
   color: rgb(7, 7, 7) !important;
+  font-weight: bolder !important;
 }
 
 a {
@@ -64,6 +65,11 @@ nav a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  border-radius: 5px;
+}
+
+#work {
+  flex-direction: row !important;
 }
 
 #about {
