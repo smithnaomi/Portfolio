@@ -10,8 +10,7 @@ _Naomi Smith_
 
 ## Usage
 
-![Previous Portfolio](assets/images/Portfolio1.png)
-![Previous Portfolio](assets/images/Portfolio2.png)
+![Portfolio](assets/images/Portfolio.gif)
 
 [Updated Portfolio](https://smithnaomi.github.io/Portfolio/)
 
